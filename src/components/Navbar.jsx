@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="hidden sm:block text-[24px] text-yellow-300">Jackstand</div>
         </a>
         <ul className="flex sm:space-x-4 text-xl space-x-8">
-          <li><a href="https://jackgimre.com" className="text-gray-300 hover:text-yellow-300">Home</a></li>
+          <li><a href="https://jackstand.app" className="text-gray-300 hover:text-yellow-300">Home</a></li>
           <li><a href="#about" className="text-gray-300 hover:text-yellow-300">About</a></li>
           <li><a href="#" className="text-gray-300 hover:text-yellow-300">Contact</a></li>
         </ul>

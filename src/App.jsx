@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import Navbar from './components/Navbar.jsx';
 import Header from './components/Header.jsx';
 import Features from './components/About.jsx';
+import Footer from './components/Footer.jsx'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Navbar />
       <Header />
       <Features />
+      <Footer />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import googlePlay from "../assets/google play.png";
 
 const Header = () => {
   return (
-    <section class="pt-[220px] w-full h-full flex flex-col items-center justify-center px-6 text-center bg-gradient-to-b from-black via-zinc-900 to-zinc-800">
+    <section class="pt-[220px] w-full h-screen flex flex-col items-center justify-center px-6 text-center bg-gradient-to-b from-black via-zinc-900 to-zinc-800">
       <h1 class="text-4xl md:text-6xl font-bold mb-4 mt-16">Build. Share. Inspire.</h1>
       <p class="text-lg md:text-xl text-zinc-400 max-w-xl">The garage in your pocket.</p>
       <p class="text-lg md:text-xl text-zinc-400 max-w-xl mb-8">Create and discover custom car builds made with real parts.</p>

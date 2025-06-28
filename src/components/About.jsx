@@ -15,9 +15,9 @@ const desc3 = 'Track your builds, set goals, and plan upgrades. Keep every detai
 const About = () => {
     return (
     <section id="about" class="pt-24 px-6 pb-20 bg-zinc-800 text-white w-full flex flex-col">
-      <h1 className="pt-4 pb-8 sm:text-[48px] text-[32px] font-semibold pl-[15%]">What is <p className="text-white hover:text-yellow-300 inline-block hover:scale-105 transition">Jackstand<p className="text-white inline-block">?</p></p></h1>
+      <h1 className="pt-4 pb-8 sm:text-[48px] text-[32px] font-semibold pl-[15%]">What is <p className="text-yellow-300 inline-block">Jackstand<p className="text-white inline-block">?</p></p></h1>
       <div className="max-w-[70%] text-center flex flex-row items-center justify-center mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-16 text-left text-zinc-200">
+        <div className="grid grid-cols-1 md:grid-cols-3 sm:gap-16 gap-6 text-left text-zinc-200">
           <Card img={nwp1} title={title1} description={desc1}></Card>
           <Card img={nwp3} title={title2} description={desc2}></Card>
           <Card img={nwp2} title={title3} description={desc3}></Card>
